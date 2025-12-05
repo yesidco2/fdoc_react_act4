@@ -19,7 +19,6 @@ const EventList = ({ events: externalEvents }) => {
         location: "Parque Simón Bolívar",
         price: 150000,
       },
-
       {
         id: 3,
         title: "Taller de Tailwind CSS",
@@ -27,7 +26,6 @@ const EventList = ({ events: externalEvents }) => {
         location: "Sala de Cómputo 4",
         price: 25000,
       },
-
       {
         id: 4,
         title: "Hackathon de Desarrollo Web",
@@ -51,10 +49,7 @@ const EventList = ({ events: externalEvents }) => {
           <h1 className="text-3xl font-extrabold text-gray-800 mb-4">
             Próximos Eventos
           </h1>
-
-          <p className="text-gray-600">
-            No hay eventos disponibles por el momento.
-          </p>
+          <p className="text-gray-600">No hay eventos disponibles por el momento.</p>
         </div>
       </section>
     );
@@ -67,13 +62,11 @@ const EventList = ({ events: externalEvents }) => {
     >
       <div className="max-w-6xl mx-auto">
         <h1 className="text-3xl font-extrabold text-gray-800 mb-8 text-center">
-          Próximos Eventos{" "}
+          Próximos Eventos
           <span className="text-indigo-600 text-sm font-medium ml-2">
             (Actividad 4)
           </span>
         </h1>
-
-        {/* uso de role para accesibilidad; cada EventCard ya es un artículo */}
 
         <div
           role="list"
